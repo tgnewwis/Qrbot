@@ -27,6 +27,11 @@
     "API_HASH": {
       "description": "YOUR API HASH, USE @TeleORG_Bot ",
       "value": ""
+    },
+    "MONGO_URI": {
+      "description": "Get this value from mongodb.com",
+      "required": true,
+      "value": ""
     }
   },
   "addons": [
