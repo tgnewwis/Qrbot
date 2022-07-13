@@ -12,37 +12,39 @@ HB = Client(
     api_hash = os.environ["API_HASH"]
 )  
 
-START_TEXT = """**
-HI {}, 
-I AM A QR CODE GENERATOR BOT
-MADE BY @TELSABOTS**"""
+START_TEXT = ""**Hello {} 🙃
+I am a QR Code Bot 🤖**
 
-HELP_TEXT = """**
-SENT ANY URL .......
-THEN CHOOSE ANY OPTION...
-THEN WAIT....
-MADE BY @TELSABOTS**
+>> `I can generate links to QR Code with QR Code decode to links support. 🚀`
+
+Made by @wisula4 🇱🇰"""
+
+HELP_TEXT = """**Hey, Follow these steps:**
+
+➠ Send me a link I will generate the QR code of that link 🤭
+➠ Send me a QR code image I will decode that image and convert to link 👌
+➠ Made in sri lanka 🇱🇰
 """
 
 ABOUT_TEXT = """
  🤖<b>BOT :QR CODE GENERATOR </b>
  
- 🧑🏼‍💻DEV🧑🏼‍💻: @ALLUADDICT
+ 🧑🏼‍💻<b>DEV : </b>  <a href='https://t.me/wisula4'>wisula</a>
  
- 📢<b>CHANNEL :</b>@TELSABOTS
+ 📢<b>CHANNEL :</b> </b>  <a href='https://t.me/EpicBotsSl'>Epic bots</a>
  
  📝<b>Language :</b>  <a href='https://python.org/'>Python3</a>
  
  🧰<b>Frame Work :</b>  <a href='https://pyrogram.org/'>Pyrogram</a>
  
- 🤩<b>SOURCE :</b>  <a href='http://www.youtube.com/watch?v=nfWjbuQqgJc'>CLICK HERE</a>
+ 🤩<b>SOURCE :</b>  <a href='https://t.me/MW_GIVEAWAYS'>MW GIVEAWAYS</a>
  
  
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://t.me/EpicBotsSl'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/wisula4')
         ],[
         InlineKeyboardButton('🆘HELP🆘', callback_data='help'),
         InlineKeyboardButton('🤗ABOUT🤗', callback_data='about'),
@@ -53,16 +55,16 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 result_buttons = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://t.me/EpicBotsSl'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://t.me/wisula4')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://t.me/EpicBotsSl'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://t.me/wisula4')
         ],[
         InlineKeyboardButton('🏡HOME🏡', callback_data='home'),
         InlineKeyboardButton('🤗ABOUT🤗', callback_data='about'),
@@ -71,8 +73,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://t.me/EpicBotsSl'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://t.me/wisula4')
         ],[
         InlineKeyboardButton('🏡HOME🏡', callback_data='home'),
         InlineKeyboardButton('🆘HELP🆘', callback_data='help'),
@@ -83,8 +85,8 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 SOURCE_TEXT = """</b>PRESS SOURCE BUTTON \n FOR SOURCE CODE</b>"""
 SOURCE_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('✅SOURCE✅', url='http://www.youtube.com/watch?v=nfWjbuQqgJc'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('✅SOURCE✅', url='https://t.me/wisula4'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://t.me/wisula4')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
@@ -92,8 +94,8 @@ SOURCE_BUTTONS = InlineKeyboardMarkup(
 
 result_buttons = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://t.me/EpicBotsSl'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://t.me/wisula4')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
@@ -106,7 +108,7 @@ result_buttons2 = InlineKeyboardMarkup(
         InlineKeyboardButton('❌CANCEL❌', callback_data='close')
     ]]
    )
-result_text = """**JOIN @TELSABOTS**"""
+result_text = """**JOIN @EpicBotsSl**"""
 
 
 @HB.on_message(filters.command(["start"]))
