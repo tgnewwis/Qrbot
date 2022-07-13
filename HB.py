@@ -12,7 +12,7 @@ HB = Client(
     api_hash = os.environ["API_HASH"]
 )  
 
-START_TEXT = ""**Hello {} 🙃
+START_TEXT = """
 I am a QR Code Bot 🤖**
 
 >> `I can generate links to QR Code with QR Code decode to links support. 🚀`
